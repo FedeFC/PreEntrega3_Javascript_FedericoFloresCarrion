@@ -175,7 +175,7 @@ const contenedorProductos = document.getElementById("contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.getElementById("tituloPrincipal");
 let botonesAgregar = document.querySelectorAll(".produdcto-agregar");
-// let numeroCarrito = document.querySelectorAll(".numerito")
+
 
 function cargarProductos(productosElegidos) {
   contenedorProductos.innerHTML = "";
