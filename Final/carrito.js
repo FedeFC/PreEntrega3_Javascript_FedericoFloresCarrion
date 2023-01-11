@@ -13,7 +13,6 @@ let contenedorTotalCarrito = document.querySelector("#total");
 
 function cargarProductosCarrito() {
   if (productosCarrito) {
-
     contenedorCarritoVacio.classList.add("disabled");
     contenedorCarritoProductos.classList.remove("disabled");
     contenedorCarritoAcciones.classList.remove("disabled");
@@ -53,7 +52,6 @@ function cargarProductosCarrito() {
       contenedorCarritoProductos.append(div);
     });
   } else {
-   
   }
   actualizarBotonesEliminar();
   actualizarTotalCarrito();
