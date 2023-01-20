@@ -78,6 +78,17 @@ function eliminarDelCarrito(e) {
     "productos-en-carrito",
     JSON.stringify(productosCarrito)
   );
+  Toastify({
+    text: "Producto Eliminado",
+    duration: 900,
+    close: true,
+    gravity: "top",
+    stopOnFocus: true,
+    style: {
+      background: "linear-gradient(to right, #fe5656, #8a0211)",
+    },
+
+  }).showToast();
 }
 
 function actualizarTotalCarrito() {

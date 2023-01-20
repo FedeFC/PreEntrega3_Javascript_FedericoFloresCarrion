@@ -266,5 +266,17 @@ fetch("./productos.json")
         "productos-en-carrito",
         JSON.stringify(productosCarrito)
       );
+      // Libreria JS
+      Toastify({
+        text: "Producto agregado al carrito",
+        duration: 900,
+        close: true,
+        gravity: "top",
+        stopOnFocus: true,
+        style: {
+          background: "linear-gradient(to right, #00b09b, #96c93d)",
+        },
+
+      }).showToast();
     }
   });
